@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppButtonStyle" parent="Widget.MaterialComponents.Button">
+
+        <item name="backgroundTint">@color/primaryColor</item>
+
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="CustomScrollBar">
+        <item name="android:scrollbarSize">12dp</item> <!-- Increase this value for a larger scrollbar -->
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar</item> <!-- Optional: Use a custom drawable for the thumb -->
+    </style>
+
+</resources>

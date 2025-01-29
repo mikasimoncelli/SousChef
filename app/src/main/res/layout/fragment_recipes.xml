@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+
+        <EditText
+            android:id="@+id/searchEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Search recipes"/>
+
+
+        <Button
+            style="@style/AppButtonStyle"
+            android:id="@+id/searchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"/>
+    </LinearLayout>
+
+
+
+    <Button
+        style="@style/AppButtonStyle"
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="5dp"
+
+        android:layout_gravity="center_horizontal"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="0dp">
+
+        <Button
+            style="@style/AppButtonStyle"
+            android:id="@+id/selectAllergies"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+        android:text="Allergies" />
+
+        <Button
+            style="@style/AppButtonStyle"
+            android:id="@+id/selectDiet"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Diet" />
+
+    </LinearLayout>
+
+
+<!--    <Button-->
+<!--        style="@style/AppButtonStyle"-->
+<!--        android:id="@+id/selectCalories"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Calories"-->
+<!--        android:layout_marginTop="0dp"-->
+<!--        android:width="1000dp"-->
+<!--        android:layout_gravity="center_horizontal"/>-->
+
+
+<!--    <Button-->
+<!--        style="@style/AppButtonStyle"-->
+<!--        android:id="@+id/selectNutrition"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Nutrition"-->
+<!--        android:layout_marginTop="0dp"-->
+<!--        android:width="1000dp"-->
+<!--        android:layout_gravity="center_horizontal"/>-->
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    <GridLayout
+        android:id="@+id/allergyGridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:rowCount="4"
+        android:columnCount="2"
+        android:visibility="visible">
+
+
+
+
+            <CheckBox
+                android:id="@+id/celery_free"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Celery-Free"
+                android:textSize="12dp"
+                android:visibility="visible"/>
+
+
+            <CheckBox
+                android:textSize="12dp"
+
+                android:id="@+id/crustacean_free"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crustacean-Free" />
+
+            <CheckBox
+                android:textSize="12dp"
+
+                android:id="@+id/dairy_free"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dairy-Free" />
+
+
+
+            <CheckBox
+                android:textSize="12dp"
+
+                android:id="@+id/mustard_free"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mustard-Free" />
+            å
+
+            <CheckBox
+                android:textSize="12dp"
+
+                android:id="@+id/peanut_free"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Peanut-Free" />
+
+            <CheckBox
+                android:textSize="12dp"
+
+                android:id="@+id/sesame_free"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sesame-Free" />
+
+        <CheckBox
+            android:textSize="12dp"
+
+            android:id="@+id/lupine_free"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lupine-Free" />
+
+        <CheckBox
+            android:textSize="12dp"
+
+            android:id="@+id/gluten_free"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gluten-Free" />
+
+        <CheckBox
+            android:textSize="12dp"
+
+            android:id="@+id/wheat_free"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wheat-Free" />
+
+        <CheckBox
+            android:textSize="12dp"
+
+            android:id="@+id/tree_nut_free"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tree-Nut-Free" />
+
+        <CheckBox
+            android:textSize="12dp"
+
+            android:id="@+id/soy_free"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Soy-Free" />
+
+        <CheckBox
+            android:id="@+id/fish_free"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fish-Free" />
+
+        <CheckBox
+            android:textSize="12dp"
+
+            android:id="@+id/shellfish_free"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shellfish-Free" />
+
+        <CheckBox
+            android:textSize="12dp"
+
+            android:id="@+id/egg_free"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Egg-Free" />
+
+
+
+
+
+
+    </GridLayout>
+
+
+        <GridLayout
+            android:id="@+id/dietGridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:rowCount="11"
+            android:columnCount="2"
+            android:visibility="visible">
+
+            <CheckBox
+                android:id="@+id/alcohol_free"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alcohol-free"
+                android:textSize="12dp"/>
+
+
+
+            <CheckBox
+                android:id="@+id/high_fiber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="High-Fiber"
+                android:textSize="12dp"/>
+
+            <CheckBox
+                android:id="@+id/high_protein"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="High-Protein"
+                android:textSize="12dp"/>
+
+            <CheckBox
+                android:id="@+id/keto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Keto"
+                android:textSize="12dp"/>
+
+            <CheckBox
+                android:id="@+id/kidney_friendly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kidney friendly"
+                android:textSize="12dp"/>
+
+            <CheckBox
+                android:id="@+id/kosher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kosher"
+                android:textSize="12dp"/>
+
+            <CheckBox
+                android:id="@+id/low_carb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Low-Carb"
+                android:textSize="12dp"/>
+
+            <CheckBox
+                android:id="@+id/low_fat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Low-Fat"
+                android:textSize="12dp"/>
+
+
+
+            <CheckBox
+                android:id="@+id/low_sodium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Low-Sodium"
+                android:textSize="12dp"/>
+
+            <CheckBox
+                android:id="@+id/no_oil_added"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No oil added"
+                android:textSize="12dp"/>
+
+            <CheckBox
+                android:id="@+id/no_sugar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No-sugar"
+                android:textSize="12dp"/>
+
+            <CheckBox
+                android:id="@+id/paleo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paleo"
+                android:textSize="12dp"/>
+
+            <CheckBox
+                android:id="@+id/pescatarian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pescatarian"
+                android:textSize="12dp"/>
+
+            <CheckBox
+                android:id="@+id/pork_free"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pork-free"
+                android:textSize="12dp"/>
+
+            <CheckBox
+                android:id="@+id/red_meat_free"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Red meat-free"
+                android:textSize="12dp"/>
+
+            <CheckBox
+                android:id="@+id/sugar_conscious"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sugar-conscious"
+                android:textSize="12dp"/>
+
+            <CheckBox
+                android:id="@+id/vegan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vegan"
+                android:textSize="12dp"/>
+
+            <CheckBox
+                android:id="@+id/vegetarian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vegetarian"
+                android:textSize="12dp"/>
+        </GridLayout>
+
+
+
+
+
+
+
+
+    </FrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recipesRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:visibility="gone"/>
+
+
+</LinearLayout>

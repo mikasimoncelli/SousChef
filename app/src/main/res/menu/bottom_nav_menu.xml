@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Recipe Item -->
+    <item
+        android:id="@+id/navigation_recipes"
+        android:title="Recipes"
+        android:icon="@drawable/home"
+        />
+
+    <!-- Favorites Item -->
+    <item
+        android:id="@+id/navigation_favorites"
+        android:title="Favorites"
+        android:icon="@drawable/favorite"
+        />
+
+    <!-- Shopping List Item -->
+    <item
+        android:id="@+id/navigation_shopping_list"
+        android:title="Shopping List"
+        android:icon="@drawable/list"
+        />
+
+    <!-- Account Item -->
+    <item
+        android:id="@+id/navigation_account"
+        android:title="Account"
+        android:icon="@drawable/person"
+        />
+</menu>

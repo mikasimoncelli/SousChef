@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1059193745621",
+    "project_id": "kotlin-app-5911a",
+    "storage_bucket": "kotlin-app-5911a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059193745621:android:d0084f291222109232b25c",
+        "android_client_info": {
+          "package_name": "com.example.cookingguideapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059193745621-gcimgsekb6p6bnoga4pasdrnes1763pa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cookingguideapp",
+            "certificate_hash": "025e07410fd58c0b49dfb36e630d6e6d447d3af8"
+          }
+        },
+        {
+          "client_id": "1059193745621-o1ue5li4ruk13bqj4adh8o1nip6rtki5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW200hFLI1ZbvzpD7w7DgDf81Xv5q1_Qk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059193745621-o1ue5li4ruk13bqj4adh8o1nip6rtki5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

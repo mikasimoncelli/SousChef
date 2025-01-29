@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CookingGuideApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Customized Application Theme -->
+    <style name="Theme.CookingGuideApp" parent="Base.Theme.CookingGuideApp">
+        <!-- Override colors for better visibility -->
+        <item name="colorOnPrimary">@color/bottom_nav_text_active</item>
+        <item name="colorOnSurface">@color/bottom_nav_text_inactive</item>
+        <item name="colorOnBackground">@color/bottom_nav_icon_color</item>
+
+        <!-- Text appearance for BottomNavigationView -->
+        <item name="textAppearanceCaption">@style/BottomNavigationViewTextAppearance</item>
+    </style>
+
+    <!-- Text Appearance Styles -->
+    <style name="BottomNavigationViewTextAppearance" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@color/bottom_nav_text_active</item>
+        <!-- You can also define text size, style, etc. here -->
+    </style>
+</resources>
