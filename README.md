@@ -43,9 +43,8 @@ The app is designed to be intuitive for all skill levels, including those who ma
 ---
 
 ## Image Preview
-![Sous-Chef App Screenshot](path/to/your/image.png)  
+![Sous-Chef App Screenshot](Screenshot%202025-01-30%20at%2017.39.34.png)
 
----
 
 ## Installation
 
